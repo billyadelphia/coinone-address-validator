@@ -1,6 +1,6 @@
 {
-  "name": "multicoin-address-validator",
-  "description": "Multicoin address validator for Bitcoin and other Altcoins.",
+  "name": "coinone-address-validator",
+  "description": "Coinone address validator for Bitcoin and other Altcoins.",
   "keywords": [
     "ada",
     "btc",
@@ -32,13 +32,13 @@
     "browser",
     "nodejs"
   ],
-  "version": "0.3.10",
-  "author": "Chris <chris.tsim@gmail.com>",
-  "homepage": "https://github.com/christsim/multicoin-address-validator",
+  "version": "0.2.2",
+  "author": "billyadelphia <billyorigin@gmail.com>",
+  "homepage": "https://github.com/billyadelphia/coinone-address-validator",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/christsim/multicoin-address-validator.git"
+    "url": "https://github.com/billyadelphia/coinone-address-validator"
   },
   "main": "src/wallet_address_validator",
   "engines": {
