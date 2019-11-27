@@ -32,7 +32,7 @@
     "browser",
     "nodejs"
   ],
-  "version": "0.2.2",
+  "version": "0.2.3",
   "author": "billyadelphia <billyorigin@gmail.com>",
   "homepage": "https://github.com/billyadelphia/coinone-address-validator",
   "license": "MIT",
