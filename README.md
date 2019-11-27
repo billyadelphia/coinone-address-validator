@@ -1,7 +1,7 @@
 # wallet-address-validator
 Simple wallet address validator for validating Bitcoin and other altcoins addresses in **Node.js and browser**. 
 
-Forked from [ryanralph/altcoin-address](https://github.com/ryanralph/altcoin-address).
+Forked from [christsim/multicoin-address-validator](https://github.com/christsim/multicoin-address-validator).
 
 **File size is ~17 kB (minifed and gzipped)**.
 
@@ -9,7 +9,7 @@ Forked from [ryanralph/altcoin-address](https://github.com/ryanralph/altcoin-add
 
 ### NPM
 ```
-npm install multicoin-address-validator
+npm install coinone-address-validator
 ```
 
 ### Browser
@@ -113,12 +113,16 @@ npm install multicoin-address-validator
 * ZCash/zec `'ZCash'` or `'zec'` 
 * ZClassic/zcl `'ZClassic'` or `'zcl'` 
 * ZenCash/zen `'ZenCash'` or `'zen'`
+* Icon `'Icon'` or `'icx'`
+* Hydro `'HYDRO'` or `'hydro'`
+* Liveen `'Liveen'` or `'veen'`
+* MyCreditChain `'MCC'` or `'mcc'`
 
 ### Usage example
 
 #### Node
 ```javascript
-var WAValidator = require('multicoin-address-validator');
+var WAValidator = require('coinone-address-validator');
 
 var valid = WAValidator.validate('1KFzzGtDdnq5hrwxXGjwVnKzRbvf8WVxck', 'BTC');
 if(valid)
@@ -130,7 +134,7 @@ else
 ```
 
 ```javascript
-var WAValidator = require('multicoin-address-validator');
+var WAValidator = require('coinone-address-validator');
 
 var valid = WAValidator.validate('1KFzzGtDdnq5hrwxXGjwVnKzRbvf8WVxck', 'litecoin', 'testnet');
 if(valid)
